@@ -1,0 +1,24 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.contactName {
+  font-size: 18px;
+}
+
+.buttonDeleteNumber {
+  cursor: pointer;
+  font-size: 14px;
+  padding: 3px 15px;
+  border: 1px solid #020302;
+  border-radius: 5px;
+  color: white;
+  background-color: #506b3db3;
+  transition: border 0.4s ease;
+}
+
+.buttonDeleteNumber:is(:hover, :focus) {
+  border: 1px solid #335a19fa;
+}
